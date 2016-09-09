@@ -1,0 +1,314 @@
+[
+
+   {
+      "azure": ["virtual-machines", "cloud-services"],
+      "gcp": ["compute"],
+      "aws": ["ec2"]
+   },
+   {
+      "azure": ["batch"],
+      "gcp": ["preemptible-vms"],
+      "aws":["ec2/spot"]
+   },
+   {
+      "azure": ["remoteapp"],
+      "aws": ["appstream"]
+   },
+   {
+      "aws":["workspaces"]
+   },
+   {
+      "azure":["functions"],
+      "gcp": ["functions"],
+      "aws": ["lambda"]
+   },
+   {
+      "azure": ["container-service"],
+      "gcp": ["container-engine"],
+      "aws": ["ecs"]
+   },
+   {
+      "gcp": ["container-registry"],
+      "aws":["ecr"]
+   },
+   {
+      "azure":["marketplace"],
+      "gcp": ["cloudlauncher"],
+      "aws": ["marketplace"]
+   },
+   {
+      "azure": ["app-service", "service-fabric"],
+      "gcp": ["appengine"],
+      "aws":["elasticbeanstalk"]
+   },
+   {
+      "azure":["mobileservices"],
+      "aws":["mobilehub"]
+   },
+   {
+      "azure":["app-service"],
+      "gcp":["firebase"],
+      "aws": ["cognito"]
+   },
+   {
+      "azure": ["api-management"],
+      "gcp": ["endpoints"],
+      "aws":["api-gateway"]
+   },
+   {
+      "azure": ["notification-hubs"],
+      "gcp":["cloud-messaging", "firebase-cloud-messaging"],
+      "aws":["sns"]
+   },
+   {
+     "azure": ["mobile-engagement"],
+     "aws":["mobileanalytics"]
+   },
+   {
+      "gcp":["testlab"],
+      "aws":["devicefarm"]
+   },
+   {
+      "aws": ["ses"]
+   },
+   {
+      "aws":["certificate-manager"]
+   },
+   {
+      "aws": ["gamelift"]
+   },
+   {
+      "azure":["storage"],
+      "gcp": ["storage"],
+      "aws": ["s3"]
+   },
+   {
+      "azure": ["storage"],
+      "gcp": ["persdisk"],
+      "aws": ["ebs"]
+   },
+   {
+      "azure": ["storage/files"],
+      "aws": ["efs"]
+   },
+   {
+      "gcp": ["storage-nearline"],
+      "aws": ["glacier"]
+   },
+   {
+      "azure":["importexport"],
+      "gcp": ["storagetransfer"],
+      "aws": ["importexport"]
+   },
+   {
+      "azure": ["storsimple"],
+      "aws": ["storagegateway"]
+   },
+   {
+      "azure": ["sql-database"],
+      "gcp": ["sql"],
+      "aws": ["rds"]
+   },
+   {
+      "aws": ["dms"]
+   },
+   {
+      "azure": ["sql-data-warehouse"],
+      "gcp": ["bigquery"],
+      "aws": ["redshift"]
+   },
+   {
+      "azure": ["cache"],
+      "aws": ["elasticache"]
+   },
+   {
+      "azure": ["documentdb", "storage/tables"],
+      "gcp": ["datastore", "bigtable"],
+      "aws": ["dynamodb", "simpledb"]
+   },
+   {
+      "azure": ["search"],
+      "gcp": ["customsearch"],
+      "aws": ["elasticsearch-service", "cloudsearch"] 
+   },
+   {
+      "azure": ["HDInsight"],
+      "gcp": ["dataproc"],
+      "aws": ["emr"]
+   },
+   {
+      "azure": ["machine-learning"],
+      "gcp": ["ml"],
+      "aws": ["ml"]
+   },
+   {
+      "azure": ["stream-analytics"],
+      "aws": ["kinesis/analytics"]
+   },
+   {
+      "azure": ["datafactory"],
+      "gcp": ["dataflow"],
+      "aws": ["datapipeline"]
+   },
+   {
+      "azure": ["event-hubs"],
+      "gcp": ["pubsub"],
+      "aws":["kinesis/streams", "kinesis/firehose"]
+   },
+   {
+      "azure": ["iot-hub"],
+      "aws": ["iot"]
+   },
+   {
+      "azure": ["adc"]
+   },
+   {
+      "azure": ["data-lake"]
+   },
+   {
+      "azure": ["data-lake-analytics"],
+      "gcp": ["bigquery"]
+   },
+   {
+      "azure": ["virtual-network"],
+      "gcp":["subnetworks"],
+      "aws":["vpc"]
+   },
+   {
+      "azure":["expressroute"],
+      "gcp": ["interconnect", "directpeering"],
+      "aws":["directconnect"]
+   },
+   {
+      "azure":["vpn-gateway"],
+      "gcp": ["vpn", "router"],
+      "aws":["vpgw"]
+   },
+   {
+      "azure": ["load-balancer"],
+      "gcp": ["netlb"],
+      "aws": ["elasticloadbalancing/classicloadbalancer"]
+   },
+   {
+      "azure": ["application-gateway"],
+      "gcp":["hlb"],
+      "aws": ["elasticloadbalancing/applicationloadbalancer"]
+   },
+   {
+      "azure": ["traffic-manager"],
+      "aws": ["route53"]
+   },
+   {
+      "azure": ["dns"],
+      "gcp": ["dns"],
+      "aws": ["route53"]
+   },
+   {
+      "azure": ["cdn"],
+      "gcp": ["cdninter", "cdn"],
+      "aws": ["cloudfront"]
+   },
+   {
+      "azure":["media-services"],
+      "aws": ["elastictranscoder", "cloudfront"]
+   },
+   {
+      "azure": ["biztalk-services"]
+   },
+   {
+      "azure": ["service-bus", "storage/queues"],
+      "gcp": ["pubsub"],
+      "aws": ["swf", "sqs", "sns"]
+   },
+   {
+      "azure": ["backup"]
+   },
+   {
+      "azure": ["site-recovery"]
+   },
+   {
+      "azure": ["active-directory"],
+      "gcp": ["iam"],
+      "aws": ["iam"]
+   },
+   {
+      "azure":["active-directory-ds"],
+      "aws": ["directoryservice"]
+   },
+   {
+      "azure": ["active-directory-b2c"],
+      "aws": ["cognito"]
+   },
+   {
+      "azure": ["multi-factor-authentication"],
+      "gcp": ["auth"],
+      "aws": ["mfa"]
+   },
+   {
+      "azure": ["application-insights"],
+      "gcp": ["trace", "debugger"]
+   },
+   {
+      "azure":["visual-studio-team-services"], 
+      "gcp": ["source-repositories"], 
+      "aws": ["codecommit"]
+   },
+   {
+      "azure":["visual-studio-team-services"],
+      "aws":["codedeploy", "codepipeline"]
+   },
+   {
+      "azure":["devtest-lab"],
+      "aws":["servicecatalog"]
+   },
+   {
+      "azure": ["automation"],
+      "aws":["opsworks"]
+   },
+   {
+      "azure": ["log-analytics"],
+      "gcp": ["logging"],
+      "aws": ["cloudtrail", "elasticsearch-service"]
+   },
+   {
+      "azure": ["azure-portal"],
+      "gcp": ["stackdriver", "monitoring"],
+      "aws": ["cloudwatch"]
+   },
+   {
+      "azure": ["scheduler"]
+   },
+   {
+      "azure":["resource-manager"],
+      "gcp": ["deployment-manager", "resource-mananager"],
+      "aws": ["cloudformation"]
+   },
+   {
+      "aws": ["config"]
+   },
+   {
+      "aws": ["premiumsupport/trustedadvisor"]
+   },
+   {
+      "azure": ["security-center"],
+      "gcp":["security-scanner"],
+      "aws":["inspector"]
+   },
+   {
+      "azure": ["key-vault"],
+      "aws": ["cloudhsm", "kms"]
+   },
+   {
+      "aws": ["waf"]
+   },
+   {
+      "azure": ["office365"], 
+      "gcp": ["apps"],
+      "aws":["workdocs", "workmail"]
+   },
+   {
+      "azure": ["power-bi-embedded"],
+      "gcp": ["datalab"],
+      "aws": ["quicksight"]
+   }
+]

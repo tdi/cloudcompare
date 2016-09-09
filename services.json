@@ -1,0 +1,620 @@
+{
+  "azure": {
+    "marketplace": {
+      "name": "Azure Marketplace",
+      "about": "https://azure.microsoft.com/en-us/marketplace/"
+    },
+    "devtest-lab": {
+      "name": "Azure DevTest Labs"
+    },
+    "power-bi-embedded": {
+      "name": "Microsoft Power BI"
+    },
+    "container-service" : {
+      "name": "Azure Container Service"
+    },
+    "cloud-services": {
+      "name": "Azure Cloud Services"
+    },
+    "site-recovery": {
+      "name": "Azure Site Recovery"
+    },
+    "media-services": {
+      "name": "Azure Media Services"
+    },
+    "azure-portal": {
+      "name": "Azure Portal",
+      "about": "https://azure.microsoft.com/en-us/features/azure-portal/",
+      "pricing": "none"
+    },
+    "documentdb": {
+      "name": "Azure DocumentDB"
+    },
+    "storage/tables": {
+      "name": "Azure Table Storage",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/storage/"
+    },
+    "event-hubs": {
+      "name": "Azure Event Hubs"
+    },
+    "active-directory-ds": {
+      "name": "Azure Active Directory Domain Services"
+    },
+    "active-directory": {
+      "name": "Azure Active Directory"
+    },
+    "virtual-machines": {
+      "name": "Azure Virtual Machines"
+    },
+    "mobileservices": {
+      "name": "Azure Mobile Services"
+    },
+    "vpn-gateway": {
+      "name": "Azure VPN Gateway"
+    },
+    "adc": {
+      "name": "Azure Data Catalog",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/data-catalog/",
+      "docs": "https://azure.microsoft.com/en-us/documentation/services/data-catalog/",
+      "about": "https://azure.microsoft.com/en-us/services/data-catalog/"
+
+    },
+    "importexport": {
+      "name": "Azure Import/Export",
+      "about": "https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/storage/"
+    },
+    "scheduler": {
+      "name": "Azure Scheduler"
+    },
+    "batch": {
+      "name": "Azure Batch"
+    },
+    "vsts": {
+      "name": "Visual Studio Team Services"
+    },
+    "automation": {
+      "name": "Azure Automation"
+    },
+    "application-gateway": {
+      "name": "Azure Application Gateway"
+    },
+    "expressroute": {
+      "name": "Azure ExpressRoute"
+    },
+    "remoteapp": {
+      "name": "Azure RemoteApp"
+    },
+    "active-directory-b2c": {
+      "name": "Azure Active Directory B2C"
+    },
+    "log-analytics": {
+      "name": "Azure Log Analytics"
+    },
+    "api-management": {
+      "name": "Azure API Management"
+    },
+    "sql-database": {
+      "name": "Azure SQL Database"
+    },
+    "machine-learning": {
+      "name": "Azure Machine Learning"
+    },
+    "storsimple": {
+      "name": "Azure StorSimple"
+    },
+    "office365": {
+      "name": "Microsoft Office 365",
+      "about": "https://products.office.com/en/business/explore-office-365-for-business",
+      "pricing": "https://products.office.com/en/business/compare-office-365-for-business-plans"
+    },
+    "app-service": {
+      "name": "Azure App Service Mobile Apps"
+    },
+    "service-fabric": {
+      "name": "Azure Service Fabric"
+    },
+    "mobile-engagement": {
+      "name": "Azure Mobile Engagement"
+    },
+    "cdn": {
+      "name": "Azure CDN"
+    },
+    "cache": {
+      "name": "Azure Redis Cache",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/managed-cache/"
+    },
+    "sql-data-warehouse": {
+      "name": "Azure SQL Data Warehouse"
+    },
+    "traffic-manager": {
+      "name": "Azure Traffic Manager"
+    },
+    "biztalk-services": {
+      "name": "Azure BizTalk Services"
+    },
+    "application-insights": {
+      "name": "Visual Studio Application Insights "
+    },
+    "visual-studio-team-services": {
+      "name": "Visual Studio Team Services"
+    },
+    "storage": {
+      "name": "Azure Storage"
+    },
+    "load-balancer": {
+      "name": "Azure Load Balancer"
+    },
+    "storage/files": {
+      "name": "Azure File Storage"
+    },
+    "search": {
+      "name": "Azure Search"
+    },
+    "functions": {
+      "name": "Azure Functions"
+    },
+    "multi-factor-authentication": {
+      "name": "Azure Multi-Factor Authentication"
+    },
+    "stream-analytics": {
+      "name": "Azure Stream Analytics"
+    },
+    "dns": {
+      "name": "Azure DNS"
+    },
+    "iot-hub": {
+      "name": "Azure IoT Hub"
+    },
+    "data-lake": {
+      "name": "Azure Data Lake Store"
+    },
+    "backup": {
+      "name": "Azure Backup"
+    },
+    "HDInsight": {
+      "name": "Azure HDInsight"
+    },
+    "virtual-network": {
+      "name": "Azure Virtual Network"
+    },
+    "key-vault": {
+      "name": "Azure Key Vault"
+    },
+    "service-bus": {
+      "name": "Azure Service Bus"
+    },
+    "storage/queues": {
+      "name": "Azure Storage Queues",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/storage/"
+    },
+    "data-lake-analytics": {
+      "name": "Azure Data Lake Analytics"
+    },
+    "security-center": {
+      "name": "Azure Security Center"
+    },
+    "datafactory": {
+      "name": "Azure Data Factory"
+    },
+    "notification-hubs": {
+      "name": "Azure Notification Hubs"
+    },
+    "resource-manager": {
+      "name": "Azure Resource Manager",
+      "pricing": "none"
+    }
+  },
+  "aws": {
+    "cloudsearch": {
+      "name": "Amazon CloudSearch"
+    },
+    "efs": {
+      "name": "Amazon Elastic File System (EFS)"
+    },
+    "lambda": {
+      "name": "AWS Lambda"
+    },
+    "workspaces": {
+      "name": "Amazon WorkSpaces"
+    },
+    "config": {
+      "name": "AWS Config"
+    },
+    "mfa": {
+      "name": "AWS Multi-Factor Authentication (MFA)"
+    },
+    "codecommit": {
+      "name": "AWS CodeCommit"
+    },
+    "ebs": {
+      "name": "Amaozn Elastic Block Storage (EBS)"
+    },
+    "elasticloadbalancing/applicationloadbalancer": {
+      "name": "AWS Application Elastic Load Balancing (ELB)"
+    },
+    "elasticloadbalancing/classicloadbalancer": {
+      "name": "AWS Elastic Load Balancing (ELB)"
+    },
+    "gamelift": {
+      "name": "Amazon GameLift"
+    },
+    "ecr": {
+      "name": "Amazon EC2 Container Registry (ECR)"
+    },
+    "devicefarm": {
+      "name": "AWS Device Farm"
+    },
+    "iot": {
+      "name": "AWS IoT"
+    },
+    "premiumsupport/trustedadvisor": {
+      "name": "AWS Trusted Advisor",
+      "pricing": "https://aws.amazon.com/premiumsupport/pricing/"
+    },
+    "route53": {
+      "name": "Amazon Route 53"
+    },
+    "kinesis/analytics": {
+      "name": "Amazon Kinesis Analytics"
+    },
+    "iam": {
+      "name": "Identity and Access Management (IAM)"
+    },
+    "vpc": {
+      "name": "Amazon Virtual Private Cloud (VPC) "
+    },
+    "kms": {
+      "name": "Key Management Service (KMS)"
+    },
+    "cloudhsm": {
+      "name": "CloudHSM"
+    },
+    "emr": {
+      "name": "Amazon Elastic MapReduce (EMR)"
+    },
+    "s3": {
+      "name": "Amazon Simple Storage Service (S3)",
+      "about": "https://aws.amazon.com/s3/",
+      "pricing": "https://aws.amazon.com/s3/pricing"
+    },
+    "cloudformation": {
+      "name": "AWS CloudFormation "
+    },
+    "sqs": {
+      "name": "Amazon Simple Queue Service (SQS)"
+    },
+    "swf": {
+      "name": "Amazon Simple Workflow Service (SWF)"
+    },
+    "inspector": {
+      "name": "Amazon Inspector "
+    },
+    "datapipeline": {
+      "name": "AWS Data Pipeline"
+    },
+    "sns": {
+      "name": "Amazon Simple Notification Service (SNS)"
+    },
+    "ses": {
+      "name": "Amazon Simple Email Service (SES)"
+    },
+    "cognito": {
+      "name": "Amazon Cognito"
+    },
+    "ecs": {
+      "name": "Amazon EC2 Container Service (ECS)",
+      "about": "https://aws.amazon.com/ecs/",
+      "pricing": "https://aws.amazon.com/ecs/pricing"
+    },
+    "marketplace": {
+      "name": "AWS Marketplace"
+    },
+    "servicecatalog": {
+      "name": "AWS Service Catalog"
+    },
+    "glacier": {
+      "name": "Amazon Glacier"
+    },
+    "quicksight": {
+      "name": "Amazon QuickSight"
+    },
+    "directoryservice": {
+      "name": "AWS Directory Service"
+    },
+    "ec2": {
+      "name": "Amazon Elastic Compute Cloud (EC2)",
+      "about": "https://aws.amazon.com/ec2",
+      "pricing": "https://aws.amazon.com/ec2/pricing"
+    },
+    "mobilehub": {
+      "name": "AWS Mobile Hub"
+    },
+    "vpgw": {
+      "name": "AWS Virtual Private Gateway",
+      "about": "http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html",
+      "pricing": "https://aws.amazon.com/vpc/pricing/"
+    },
+    "cloudwatch": {
+      "name": "Amazon CloudWatch"
+    },
+    "dynamodb": {
+      "name": "Amazon DynamoDB"
+    },
+    "simpledb": {
+      "name": "Amazon SimpleDB"
+    },
+    "kinesis/streams": {
+      "name": "Amazon Kinesis Streams"
+    },
+    "kinesisfirehose": {
+      "name": "Amazon Kinesis Firehose"
+    },
+    "elastictranscoder": {
+      "name": "Amazon Elastic Transcoder"
+    },
+    "cloudfront": {
+      "name": "Amazon CloudFront"
+    },
+    "cloudtrail": {
+      "name": "AWS CloudTrail"
+    },
+    "elasticsearch-service": {
+      "name": "Amazon Elasticsearch Service (ES)"
+    },
+    "api-gateway": {
+      "name": "Amazon API Gateway "
+    },
+    "rds": {
+      "name": "Amazon Relational Database Service (RDS)"
+    },
+    "certificate-manager": {
+      "name": "AWS Certificate Manager"
+    },
+    "appstream": {
+      "name": "Amazon AppStream "
+    },
+    "directconnect": {
+      "name": "AWS Direct Connect "
+    },
+    "importexport": {
+      "name": "AWS Import/Export Snowball"
+    },
+    "waf": {
+      "name": "AWS Web Application Firewall (WAF)"
+    },
+    "codedeploy": {
+      "name": "AWS CodeDeploy"
+    },
+    "codepipeline": {
+      "name": "AWS CodePipeline "
+    },
+    "ec2/spot": {
+      "name": "Amazon Elastic Compute Cloud (EC2) Spot"
+    },
+    "opsworks": {
+      "name": "AWS OpsWorks"
+    },
+    "dms": {
+      "name": "AWS Database Migration Service (DMS)"
+    },
+    "redshift": {
+      "name": "Amazon Redshift"
+    },
+    "elasticache": {
+      "name": "Amazon ElastiCache"
+    },
+    "mobileanalytics": {
+      "name": "Amazon Mobile Analytics "
+    },
+    "ml": {
+      "name": "Amazon Machine Learning"
+    },
+    "storagegateway": {
+      "name": "AWS Storage Gateway"
+    },
+    "workdocs": {
+      "name": "Amazon WorkDocs"
+    },
+    "workmail": {
+      "name": "Amazon WorkMail"
+    },
+    "elasticbeanstalk": {
+      "name": "AWS Elastic Beanstalk "
+    }
+  },
+  "gcp": {
+    "compute": {
+      "name": "Google Compute Engine"
+    },
+    "vpn": {
+      "name": "Google Cloud VPN",
+      "about": "https://cloud.google.com/compute/docs/vpn/overview",
+      "pricing": "https://cloud.google.com/compute/pricing#vpn"
+    },
+    "router": {
+      "name": "Google Cloud Router",
+      "about": "https://cloud.google.com/compute/docs/cloudrouter",
+      "pricing": "none"
+    },
+    "datastore": {
+      "name": "Google Cloud Datastore"
+    },
+    "bigtable": {
+      "name": "Google Cloud Bigtable"
+    },
+    "monitoring": {
+      "name": "Stackdriver  Monitoring"
+    },
+    "stackdriver": {
+      "name": "Google Stackdriver"
+    },
+    "pubsub": {
+      "name": "Google Cloud Pub/Sub"
+    },
+    "cloudlauncher": {
+      "name": "Google Cloud Launcher",
+      "about": "https://console.cloud.google.com/launcher",
+      "pricing": "none"
+    },
+    "datalab": {
+      "name": "Cloud Data Lab"
+    },
+    "storage-nearline": {
+      "name": "Cloud Storage Nearline",
+      "pricing": "https://cloud.google.com/storage/pricing"
+    },
+    "container-engine": {
+      "name": "Container Engine"
+    },
+    "ml": {
+      "name": "Cloud Machine Learning",
+      "pricing": "none"
+    },
+    "appengine": {
+      "name": "Google App Engine"
+    },
+    "apps": {
+      "name": "Google Apps for Work",
+      "about" : "https://apps.google.com/",
+      "pricing": "https://apps.google.com/pricing.html"
+    },
+    "bigquery": {
+      "name": "Google BigQuery"
+
+    },
+    "cdninter": {
+      "name": "Google Cloud CDN Interconnect",
+      "about": "https://cloud.google.com/interconnect/cdn-interconnect",
+      "pricing": "https://cloud.google.com/interconnect/cdn-interconnect#pricing"
+    },
+    "cdn": {
+      "name": "Google Cloud CDN"
+    },
+    "storagetransfer": {
+      "name": "Cloud Storage Transfer Service",
+      "about": "https://cloud.google.com/storage/transfer/",
+      "pricing": "https://cloud.google.com/storage/transfer/#pricing"
+    },
+    "preemptible-vms": {
+      "name": "Google Cloud Preemtible VMs",
+      "pricing": "https://cloud.google.com/compute/pricing"
+    },
+    "shell": {
+      "name": "Google Cloud Shell",
+      "pricing": "https://cloud.google.com/shell/#cloud-shell-pricing"
+    },
+    "sql": {
+      "name": "Google Cloud SQL"
+    },
+    "endpoints": {
+      "name": "Google Cloud Endpoints",
+      "pricing": "none"
+    },
+    "logging": {
+      "name": "Stackdriver Logging"
+    },
+    "hlb": {
+      "name": "Google Cloud HTTP(S) Load Balancing",
+      "pricing": "https://cloud.google.com/compute/pricing#lb",
+      "about": "https://cloud.google.com/compute/docs/load-balancing/http/"
+    },
+    "interconnect": {
+      "name": "Cloud Interconnect",
+      "pricing": "https://cloud.google.com/interconnect/#cloud-interconnect-pricing"
+    },
+    "directpeering": {
+      "name": "Google Direct Peering",
+      "about": "https://cloud.google.com/interconnect/direct-peering",
+      "pricing": "https://cloud.google.com/interconnect/#cloud-interconnect-pricing"
+    },
+    "dns": {
+      "name": "Google Cloud DNS"
+    },
+    "iam": {
+      "name": "Cloud Identity and Access Management",
+      "pricing": "none"
+    },
+    "testlab": {
+      "name": "Google Cloud Test Lab",
+      "about": "https://firebase.google.com/docs/test-lab/",
+      "pricing": "https://firebase.google.com/pricing/"
+    },
+    "source-repositories": {
+      "name": "Google Cloud Source Repositories"
+    },
+    "netlb": {
+      "name": "Google Cloud Network Load Balancing",
+      "about": "https://cloud.google.com/compute/docs/load-balancing/network/",
+      "pricing" : "https://cloud.google.com/compute/pricing#lb"
+    },
+    "persdisk": {
+      "name": "Compute Engine Persistent Disks",
+      "about": "https://cloud.google.com/compute/docs/disks/",
+      "pricing" : "https://cloud.google.com/compute/docs/disks/"
+    },
+    "container-registry": {
+      "name": "Google Container Registry",
+      "pricing": "none"
+    },
+    "trace": {
+      "name": "Stackdriver Trace",
+      "pricing" : "none"
+    },
+    "debugger": {
+      "name": "Stackdriver Debugger",
+      "pricing": "none"
+    },
+    "customsearch": {
+      "name": "Google Custom Search",
+      "about": "https://developers.google.com/custom-search/",
+      "pricing": "https://support.google.com/customsearch/answer/4542048?hl=en"
+    },
+    "auth": {
+      "name": "Google Authenticator"
+    },
+    "functions": {
+      "name": "Google Cloud Functions",
+      "pricing": "none"
+    },
+    "firebase": {
+      "name": "Google Firebase",
+      "about": "https://firebase.google.com/",
+      "pricing": "https://firebase.google.com/pricing/"
+    },
+    "deployment-manager": {
+      "name": "Cloud Deployment Manager",
+      "pricing" : "none"
+    },
+    "resource-manager": {
+      "name": "Cloud Resource Manager"
+    },
+    "security-scanner": {
+      "name": "Cloud Security Scanner"
+    },
+    "firebase-cloud-messaging" : {
+      "name": "Firebase Cloud Messaging",
+      "about": "https://firebase.google.com/docs/cloud-messaging/",
+      "pricing": "https://firebase.google.com/pricing/"
+    },
+    "cloud-messaging": {
+      "name": "Google Cloud Messaging",
+      "about": "https://developers.google.com/cloud-messaging/",
+      "pricing": "none"
+    },
+    "dataflow": {
+      "name": "Google Cloud Dataflow"
+    },
+    "storage": {
+      "name": "Google Cloud Storage"
+    },
+    "subnetworks": {
+      "name": "Google Cloud Subnetworks",
+      "about":"https://cloud.google.com/compute/docs/subnetworks",
+      "pricing": "none"
+    },
+    "dataproc": {
+      "name": "Google Cloud Dataproc"
+    }
+  }
+}
