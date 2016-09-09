@@ -2,11 +2,11 @@
 
 ## Why 
 
-To know which service in on cloud provider correponds to another. Currently the project compare the biggest providers according to the Gartner: AWS, Azure and GCP. When another one pops out - I plan to add. 
+I created the site to know which service in one cloud privider is similar or the same as a service in a different cloud provider. Currently the project compares the biggest providers according to the Gartner: AWS, Azure and GCP. When another one pops out - I will consider to add it.  
 
 ## How to contribute
 
-This is an open source project that I maintain and run under the letscompare.cloud domain. 
+This is an open source project that I maintain and run under the [letscompare.cloud](http://letscompare.cloud) domain. 
 
 There are few ways to help:
 
@@ -18,4 +18,4 @@ There are few ways to help:
 MIT
 
 ## Author 
-Dariusz Dwornikowski @tdi
+Dariusz Dwornikowski 
