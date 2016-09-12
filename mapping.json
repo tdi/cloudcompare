@@ -1,5 +1,10 @@
 [
 
+  {
+    "azure": ["autoscaling", "virtual-machine-scale-sets"],
+    "aws": ["autoscaling"],
+    "gcp": ["autoscaler"]
+  },
    {
       "azure": ["virtual-machines", "cloud-services"],
       "gcp": ["compute"],

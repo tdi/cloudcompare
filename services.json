@@ -1,5 +1,15 @@
 {
   "azure": {
+    "autoscaling": {
+      "name": "AutoScaling",
+      "about":"https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/",
+      "pricing" : "none"
+    },
+    "virtual-machine-scale-sets": {
+      "name": "Virtual Machine Scale Sets",
+      "about" : "https://azure.microsoft.com/en-us/documentation/articles/virtual-machine-scale-sets-overview/",
+      "pricing": "none"
+    },
     "marketplace": {
       "name": "Azure Marketplace",
       "about": "https://azure.microsoft.com/en-us/marketplace/"
@@ -206,6 +216,9 @@
     }
   },
   "aws": {
+    "autoscaling": {
+      "name": "Auto Scaling"
+    },
     "cloudsearch": {
       "name": "Amazon CloudSearch"
     },
@@ -424,6 +437,11 @@
     }
   },
   "gcp": {
+    "autoscaler": {
+      "name": "Auto Scaler",
+      "about": "https://cloud.google.com/compute/docs/autoscaler/",
+      "pricing": "none"
+    },
     "compute": {
       "name": "Google Compute Engine"
     },
