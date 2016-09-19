@@ -5,6 +5,11 @@
     "aws": ["autoscaling"],
     "gcp": ["autoscaler"]
   },
+  {
+    "azure": ["custom-data"],
+    "aws": ["user-data"],
+    "gcp": ["startup-script"]
+  },
    {
       "azure": ["virtual-machines", "cloud-services"],
       "gcp": ["compute"],

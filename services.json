@@ -1,5 +1,10 @@
 {
   "azure": {
+    "custom-data": {
+      "name": "Instance custom data",
+      "about": "https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-inject-custom-data/",
+      "pricing": "none"
+  },
     "autoscaling": {
       "name": "AutoScaling",
       "about":"https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/",
@@ -216,6 +221,11 @@
     }
   },
   "aws": {
+    "user-data": {
+      "name": "Instance User-data",
+      "about": "http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html",
+      "pricing": "none"
+    },
     "autoscaling": {
       "name": "Auto Scaling"
     },
@@ -437,6 +447,11 @@
     }
   },
   "gcp": {
+    "startup-script": {
+      "name": "Startup Script",
+      "about": "https://cloud.google.com/compute/docs/startupscript",
+      "pricing": "none"
+    },
     "autoscaler": {
       "name": "Auto Scaler",
       "about": "https://cloud.google.com/compute/docs/autoscaler/",
