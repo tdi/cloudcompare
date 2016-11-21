@@ -508,9 +508,9 @@
       "name": "Google App Engine"
     },
     "apps": {
-      "name": "Google Apps for Work",
-      "about" : "https://apps.google.com/",
-      "pricing": "https://apps.google.com/pricing.html"
+      "name": "G suite",
+      "about" : "https://gsuite.google.com/",
+      "pricing": "https://gsuite.google.com/pricing.html"
     },
     "bigquery": {
       "name": "Google BigQuery"
