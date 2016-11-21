@@ -251,7 +251,7 @@
       "name": "AWS CodeCommit"
     },
     "ebs": {
-      "name": "Amaozn Elastic Block Storage (EBS)"
+      "name": "Amazon Elastic Block Storage (EBS)"
     },
     "elasticloadbalancing/applicationloadbalancer": {
       "name": "AWS Application Elastic Load Balancing (ELB)"
