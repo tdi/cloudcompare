@@ -2,10 +2,9 @@
 
 angular.module('cloudcompare', [
   'ngRoute',
-])
-.controller('ServicesCtrl', ['$scope', '$http', function($scope, $http) {
+]).controller('ServicesCtrl', ['$scope', '$http', function($scope, $http) {
   $scope.searchServices = '';
-   
+
   $http.get('services.json').success(function(data) {
     $scope.services = data;
   });
@@ -19,6 +18,6 @@ angular.module('cloudcompare', [
     templateUrl: 'compare.html',
     controller: 'ServicesCtrl'
   });
-    $locationProvider.html5Mode(true);
 
+  $locationProvider.html5Mode(true);
 }]);
