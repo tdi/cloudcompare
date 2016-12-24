@@ -1,15 +1,14 @@
 [
-
-  {
-    "azure": ["autoscaling", "virtual-machine-scale-sets"],
-    "aws": ["autoscaling"],
-    "gcp": ["autoscaler"]
-  },
-  {
-    "azure": ["custom-data"],
-    "aws": ["user-data"],
-    "gcp": ["startup-script"]
-  },
+   {
+      "azure": ["autoscaling", "virtual-machine-scale-sets"],
+      "aws": ["autoscaling"],
+      "gcp": ["autoscaler"]
+   },
+   {
+      "azure": ["custom-data"],
+      "aws": ["user-data"],
+      "gcp": ["startup-script"]
+   },
    {
       "azure": ["virtual-machines", "cloud-services"],
       "gcp": ["compute"],
@@ -259,8 +258,8 @@
       "gcp": ["trace", "debugger"]
    },
    {
-      "azure":["visual-studio-team-services"], 
-      "gcp": ["source-repositories"], 
+      "azure":["visual-studio-team-services"],
+      "gcp": ["source-repositories"],
       "aws": ["codecommit"]
    },
    {
@@ -312,7 +311,7 @@
       "aws": ["waf"]
    },
    {
-      "azure": ["office365"], 
+      "azure": ["office365"],
       "gcp": ["apps"],
       "aws":["workdocs", "workmail"]
    },
@@ -320,5 +319,10 @@
       "azure": ["power-bi-embedded"],
       "gcp": ["datalab"],
       "aws": ["quicksight"]
+   },
+   {
+      "azure": ["computer-vision"],
+      "gcp": ["vision"],
+      "aws": ["rekognition"]
    }
 ]

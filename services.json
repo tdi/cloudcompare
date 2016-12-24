@@ -4,7 +4,7 @@
       "name": "Instance custom data",
       "about": "https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-inject-custom-data/",
       "pricing": "none"
-  },
+    },
     "autoscaling": {
       "name": "AutoScaling",
       "about":"https://azure.microsoft.com/en-us/documentation/articles/web-sites-scale/",
@@ -218,6 +218,10 @@
     "resource-manager": {
       "name": "Azure Resource Manager",
       "pricing": "none"
+    },
+    "computer-vision": {
+      "name": "Computer Vision API",
+      "about": "https://www.microsoft.com/cognitive-services/en-us/computer-vision-api"
     }
   },
   "aws": {
@@ -443,7 +447,11 @@
       "name": "Amazon WorkMail"
     },
     "elasticbeanstalk": {
-      "name": "AWS Elastic Beanstalk "
+      "name": "AWS Elastic Beanstalk"
+    },
+    "rekognition": {
+      "name": "Amazon Rekognition",
+      "about": "https://aws.amazon.com/rekognition/"
     }
   },
   "gcp": {
@@ -648,6 +656,10 @@
     },
     "dataproc": {
       "name": "Google Cloud Dataproc"
+    },
+    "vision": {
+      "name": "Cloud Vision API",
+      "about": "https://cloud.google.com/vision/"
     }
   }
 }

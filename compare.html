@@ -26,7 +26,6 @@
         </thead>
         <tbody>
           <tr data-ng-repeat='m in mapping | filter:searchServices'>
-
             <td>
               <div data-ng-repeat='s in m["azure"]'>
                 <a class="service-link" ng-if='!!services["azure"][s].about' title="About"
@@ -46,7 +45,7 @@
                   <a ng-if='!!services["aws"][s].pricing && services["aws"][s].pricing !== "none" ' title="Pricing" alt="Pricing" href='{{ services["aws"][s].pricing}}'><i class="fa fa-money" aria-hidden="true"></i></a>
                   <a ng-if='!services["aws"][s].pricing' title="Pricing" alt="Pricing" href='https://aws.amazon.com/{{s}}/pricing'><i class="fa fa-money" aria-hidden="true"></i></a>
                 </div>
-              </div> 
+              </div>
             </td>
             <td>
               <div data-ng-repeat='s in m["gcp"]'>
@@ -56,10 +55,8 @@
                   <a ng-if='!!services["gcp"][s].pricing && services["gcp"][s].pricing !== "none" ' title="Pricing" alt="Pricing" href='{{ services["gcp"][s].pricing}}'><i class="fa fa-money" aria-hidden="true"></i></a>
                   <a ng-if='!services["gcp"][s].pricing' title="Pricing" alt="Pricing" href='https://cloud.google.com/{{s}}/pricing'><i class="fa fa-money" aria-hidden="true"></i></a>
                 </div>
-              </div> 
+              </div>
             </td>
-              
-                
           </tr>
         </tbody>
       </table>
