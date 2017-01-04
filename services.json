@@ -103,6 +103,10 @@
     "active-directory-b2c": {
       "name": "Azure Active Directory B2C"
     },
+    "audit-logs": {
+      "name": "Azure Portal Activity Logs",
+      "about": "https://docs.microsoft.com/en-gb/azure/azure-resource-manager/resource-group-audit"
+    },
     "log-analytics": {
       "name": "Azure Log Analytics"
     },
